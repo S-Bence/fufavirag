@@ -1,0 +1,5 @@
+V9: OAuth bridge Worker + Decap CMS config.
+1. Cloudflare Worker Edit code: replace worker.js with the included worker.js code, Deploy.
+2. GitHub repository: replace admin/config.yml with this version (or upload all site files except worker.js).
+3. Test https://glflow-org.github.io/fufavirag-website/admin/
+IMPORTANT: Worker code must NOT be uploaded into public website repository.

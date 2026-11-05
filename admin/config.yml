@@ -1,0 +1,46 @@
+# V8 – Decap CMS. A bejelentkezéshez külön GitHub OAuth közvetítő szükséges.
+# FONTOS: GitHub OAuth Client Secret vagy személyes token SOHA nem kerülhet ebbe a fájlba.
+backend:
+  name: github
+  repo: glflow-org/fufavirag-website
+  branch: main
+  base_url: https://fufavirag-cms-auth.stremenbence83-823.workers.dev
+  auth_endpoint: auth
+
+media_folder: images/uploads
+public_folder: images/uploads
+locale: hu
+publish: false
+collections:
+  - name: content
+    label: Honlap tartalmai
+    files:
+      - name: offers
+        label: Aktuális ajánlataink
+        file: content/offers.json
+        fields:
+          - {label: Szekció megjelenítése, name: visible, widget: boolean, default: true}
+          - {label: Kis felirat, name: eyebrow, widget: string, default: Virágok minden évszakban}
+          - {label: Szekció címe, name: heading, widget: string, default: Aktuális ajánlataink}
+          - {label: Alcím, name: subtitle, widget: text, required: false}
+          - label: Ajánlatok
+            name: items
+            widget: list
+            required: false
+            summary: '{{fields.title}}'
+            fields:
+              - {label: Cím, name: title, widget: string}
+              - {label: Leírás, name: description, widget: text}
+              - {label: Fotó, name: image, widget: image, required: false}
+              - {label: Közzétéve, name: published, widget: boolean, default: false}
+      - name: gallery
+        label: Galéria
+        file: content/gallery.json
+        fields:
+          - label: Fotók
+            name: items
+            widget: list
+            summary: '{{fields.alt}}'
+            fields:
+              - {label: Fotó, name: image, widget: image}
+              - {label: Képleírás, name: alt, widget: string}

@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "image": "images/gallery1.webp",
+      "alt": "Virágos koszorú"
+    },
+    {
+      "image": "images/gallery2.webp",
+      "alt": "Rózsaszín virágok"
+    },
+    {
+      "image": "images/gallery4.webp",
+      "alt": "Színes virágcsokor"
+    },
+    {
+      "image": "images/gallery3.webp",
+      "alt": "Virágüzletünk"
+    }
+  ]
+}

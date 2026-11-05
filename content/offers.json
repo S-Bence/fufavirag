@@ -1,0 +1,14 @@
+{
+  "visible": true,
+  "eyebrow": "Virágok minden évszakban",
+  "heading": "Aktuális ajánlataink",
+  "subtitle": "Fedezd fel szezonális virágkülönlegességeinket és egyedi összeállításainkat.",
+  "items": [
+    {
+      "title": "Szezonális virágkompozíciók",
+      "description": "Érdeklődj üzletünkben a friss, szezonális virágokról és egyedi csokrokról.",
+      "image": "images/bouquet.webp",
+      "published": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+FŰ-FA-VIRÁG V8 – TELEPÍTÉSI ÚTMUTATÓ
+
+1. A ZIP tartalmát (nem magát a ZIP fájlt) töltsd fel a glflow-org/fufavirag-website repository gyökerébe.
+2. A régi index.html, admin/config.yml és content/offers.json fájlokat írd felül. Az images mappa maradjon meg.
+3. GitHub Pages: https://glflow-org.github.io/fufavirag-website/
+4. A főoldalon a szekció új címe: Aktuális ajánlataink.
+5. A cím, alcím, megjelenítés és ajánlatok már a content/offers.json fájlból érkeznek.
+6. Addig is szerkesztheted GitHubon a content/offers.json fájlt a ceruza ikonnal; commit után a Pages frissül.
+7. A galéria a content/gallery.json fájlból épül fel.
+
+FONTOS – ADMIN BELÉPÉS:
+A /admin útvonalon a Decap CMS kezelőfelület betöltődhet, de a GitHub-belépés és a médiák feltöltése NEM működik
+addig, amíg külön, biztonságos OAuth közvetítő nincs telepítve és beállítva.
+A következő feladat: OAuth közvetítő (pl. Cloudflare Worker) + GitHub OAuth app, callback URL és jogosultságok.
+GitHub tokeneket vagy OAuth titkokat SOHA ne írj nyilvános repositoryba!
+A /admin felületet még ne add át a boltnak kész rendszerként.
+
+KÉPFÁJLOK:
+A JSON-ban a képek relatív útvonala: images/nev.webp vagy images/uploads/nev.jpg.
+A képeket töltsd fel az images/uploads mappába; a fájlnév legyen egyszerű (ékezet nélkül).
+
+TESZT:
+A content/offers.json 'heading' értékét módosítsd, commitold, majd frissítsd a honlapot.
+A 'visible': false teljesen elrejti a szekciót. A 'published': true megjeleníti az adott ajánlatot.
