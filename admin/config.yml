@@ -10,7 +10,7 @@ backend:
   site_domain: fufavirag.hu
 
 media_folder: images/uploads
-public_folder: images/uploads
+public_folder: /images/uploads
 locale: hu
 publish: false
 collections:
