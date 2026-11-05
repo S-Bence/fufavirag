@@ -1,0 +1,8 @@
+FŰ-FA-VIRÁG V7
+
+ÚJ: Galéria és szezonális ajánlatok külön JSON tartalomból; Decap CMS /admin előkészítés.
+FONTOS: /admin MÉG NEM MŰKÖDIK: GitHub OAuth hitelesítés szükséges; ne adj meg GitHub tokent a HTML-ben vagy a nyilvános repositoryban!
+A JSON-t GitHub felületen már szerkesztheted; a módosítás a Pages telepítés után látszik.
+A JSON tartalmak betöltéséhez webkiszolgáló szükséges (GitHub Pages jó), a file:// előnézetben nem minden böngésző engedi a fetch-et.
+A feltöltésnél az index.html-t, content és admin mappát és az images mappát is tartsd meg.
+Később a Decap OAuth szolgáltatás beállítása és a galéria/szezonális feltöltés tesztje következik.

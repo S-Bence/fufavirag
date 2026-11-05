@@ -9,6 +9,12 @@
       "description": "Érdeklődj üzletünkben a friss, szezonális virágokról és egyedi csokrokról.",
       "image": "images/bouquet.webp",
       "published": false
+    },
+    {
+      "published": false,
+      "title": "Karácsony",
+      "description": "Közeleg a karácsony",
+      "image": "images/uploads/img_5845.jpg"
     }
   ]
 }
