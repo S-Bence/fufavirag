@@ -1,0 +1,16 @@
+FŰ-FA-VIRÁG – V11 / közösségi kapcsolatok
+
+Változások:
+- Facebook ikon és működő link a láblécben (mobilon is).
+- Az eddigi SEO, GitHub Pages, Decap CMS, képek és tartalmak változatlanok.
+- Instagram NINCS aktiválva: a kapott link regisztrációs oldal, nem profil.
+- Pinterest NINCS aktiválva: még nem kaptunk profil URL-t.
+- A közösségi megosztások Open Graph metaadatai már az eredeti index.html-ben is szerepeltek, megtartottuk őket.
+
+Telepítés:
+1. A ZIP tartalmát a GitHub S-Bence/fufavirag repo gyökerébe töltsd fel, a mappastruktúrát megtartva.
+2. Ha csak a változást szeretnéd feltölteni, elég az index.html fájlt lecserélni.
+3. Commit után várd meg a GitHub Pages deploy-t, majd ellenőrizd a Facebook ikont a láblécben.
+4. Küldd el a tényleges Instagram- és Pinterest-profil linkjét; akkor az ikonokat is bekapcsoljuk.
+
+Megjegyzés: a Facebook /share/ linket pontosan a megadott formában használtuk.

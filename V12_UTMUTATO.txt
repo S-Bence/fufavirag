@@ -1,0 +1,8 @@
+Fű-Fa-Virág V12 – halványzöld közösségi ikonok
+
+A lábléc sötétzöld hátterén halványzöld körök, bennük sötétzöld Facebook- és Instagram-ikon.
+Facebook: a megadott hivatkozás működik.
+Instagram: a profil URL-je még nem ismert, ezért az ikon látható, de nem kattintható.
+
+Telepítés: elegendő az index.html fájlt lecserélni a GitHub-repository főkönyvtárában.
+A többi fájl változatlan; a CMS, SEO és galéria kódja megmaradt.
