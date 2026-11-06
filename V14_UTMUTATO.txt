@@ -1,0 +1,7 @@
+V14 – ragadós fejléc és többoldalas honlap
+
+A ZIP tartalmát a GitHub repository gyökerébe töltsd fel, a meglévő fájlokat felülírva.
+Új oldalak: viragcsokrok.html, novenyek.html, dekoraciok.html, galeria.html, kapcsolat.html.
+A CMS, képek, közösségi ikonok megmaradtak.
+A galéria a content/gallery.json fájlból töltődik be.
+A .com domain átállása és a régi URL-ek átirányítása NEM történt meg; ezt SEO szempontból külön tervezzük meg.
