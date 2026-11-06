@@ -1,0 +1,3 @@
+V30 – Instagram link aktiválása
+
+A ZIP 6 módosított HTML oldalt tartalmaz. A fájlokat a GitHub repository gyökerébe töltsd fel, a meglévő fájlokat felülírva. A link: https://www.instagram.com/fufavirag/
