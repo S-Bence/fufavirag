@@ -18,7 +18,7 @@
   const count=dialog.querySelector('.v27-lightbox-count');
   const close=dialog.querySelector('.v27-close');
   let active=0,returnFocus=null,oldOverflow='',touchX=null;
-  function render(){const item=items[active];picture.src=item.img.currentSrc||item.img.src;picture.alt=item.name;caption.textContent=item.name;count.textContent=(active+1)+' / '+items.length;}
+  function render(){const item=items[active];picture.src=item.img.dataset.lightboxSrc||item.img.currentSrc||item.img.src;picture.alt=item.name;caption.textContent=item.name;count.textContent=(active+1)+' / '+items.length;}
   function open(index){returnFocus=document.activeElement;active=index;oldOverflow=document.body.style.overflow;document.body.style.overflow='hidden';dialog.hidden=false;render();close.focus();}
   function dismiss(){dialog.hidden=true;picture.removeAttribute('src');document.body.style.overflow=oldOverflow;if(returnFocus&&typeof returnFocus.focus==='function')returnFocus.focus();}
   function step(delta){active=(active+delta+items.length)%items.length;render();}

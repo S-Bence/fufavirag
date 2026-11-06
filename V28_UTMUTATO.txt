@@ -1,0 +1,6 @@
+Fű-Fa-Virág V28 – Lightbox képkeretek javítása
+
+A kategóriakártyák eredeti képei és méretezése változatlan.
+A Lightbox az érintett fotók fehér szegély nélküli, külön előkészített változatát használja.
+A módosított fájlok: viragcsokrok.html, novenyek.html, dekoraciok.html, assets/lightbox-v27.js és images/lightbox/*
+Telepítés: a ZIP teljes tartalmát másold a GitHub repository gyökerébe, az új images/lightbox mappával együtt.
