@@ -1,0 +1,5 @@
+Fű-Fa-Virág V15 – favicon frissítés
+
+A V14 összes fájlját megtartottuk, a favicon fájlokkal és a hat HTML oldal fejléceibe felvett hivatkozásokkal bővítve.
+GitHub: a ZIP tartalmát a repository gyökerébe töltsd fel, a mappaszerkezet megtartásával.
+A Decap CMS konfigurációja változatlan.
