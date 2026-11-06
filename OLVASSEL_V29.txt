@@ -1,0 +1,4 @@
+V29 - Atlatszo favicon
+
+A ZIP-ben levo 5 fajlt toltsd fel a GitHub repository gyokermappajaba, a regiek felulirasaval.
+A bongeszo favicon cache miatt lehet, hogy Ctrl+F5 vagy uj lap szukseges.
