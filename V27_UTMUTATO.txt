@@ -1,0 +1,6 @@
+Fű-Fa-Virág V27 – Lightbox
+
+Kattints a Virágcsokrok, Növények vagy Dekorációk oldal bármely termékfotójára.
+Lapozás: nyílgombok vagy mobilon vízszintes húzás. Bezárás: X, Esc vagy kattintás a sötét háttérre.
+A teljes eredeti képet mutatja kivágás nélkül.
+A V26 többi fájlja változatlan. Az assets mappát is töltsd fel GitHubra.

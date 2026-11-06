@@ -1,0 +1,13 @@
+
+/* V27: teljes kepes, akadalymentes termekfoto-nagyitas */
+.v18-product .v20-product-media{cursor:zoom-in}
+.v18-product .v20-product-media:focus-visible{outline:3px solid #28754d;outline-offset:3px}
+.v27-lightbox[hidden]{display:none!important}
+.v27-lightbox{position:fixed;inset:0;z-index:9999;background:rgba(9,23,17,.94);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:65px 70px 50px;color:#fff}
+.v27-lightbox-image{display:block;width:auto!important;height:auto!important;max-width:100%!important;max-height:calc(100dvh - 185px)!important;object-fit:contain!important;box-shadow:0 14px 50px rgba(0,0,0,.3)}
+.v27-lightbox-caption{text-align:center;max-width:85vw;margin:18px 0 4px;font:20px Georgia,serif;color:#fff}
+.v27-lightbox-count{font:13px Arial,sans-serif;color:#d1ddd3}
+.v27-lightbox button{position:absolute;appearance:none;border:1px solid rgba(255,255,255,.35);border-radius:50%;width:44px;height:44px;background:rgba(255,255,255,.13);color:white;font-size:28px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.v27-lightbox button:hover,.v27-lightbox button:focus-visible{background:rgba(255,255,255,.28);outline:2px solid #fff;outline-offset:2px}
+.v27-close{top:16px;right:20px}.v27-prev{left:16px;top:50%;transform:translateY(-50%)}.v27-next{right:16px;top:50%;transform:translateY(-50%)}
+@media(max-width:600px){.v27-lightbox{padding:62px 14px 64px}.v27-lightbox-image{max-height:calc(100dvh - 205px)!important}.v27-lightbox-caption{font-size:18px}.v27-prev,.v27-next{top:auto;bottom:13px;transform:none}.v27-prev{left:calc(50% - 66px)}.v27-next{right:calc(50% - 66px)}}
