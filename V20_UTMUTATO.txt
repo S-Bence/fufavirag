@@ -1,0 +1,2 @@
+V20: a Viragcsokrok oldal 6 termekfotójának teljes kártyaszélességű megjelenítése javítva. A többi oldal és kép változatlan.
+Helyi teszt: nyisd meg a viragcsokrok.html fájlt; frissítés Ctrl+F5.

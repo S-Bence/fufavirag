@@ -1,0 +1,8 @@
+Fű-Fa-Virág V16 – kategóriaoldalak tartalmi bővítése
+
+A V15 teljes csomagjára épül. Módosult: viragcsokrok.html, novenyek.html, dekoraciok.html.
+A korábbi Shoprenter-honlap nyilvános termékkategóriái alapján készült szerkesztett bemutató szöveg.
+A képek a V15 csomag meglévő képei (hangulatképek), NEM a Shoprenterből újonnan letöltött termékfotók.
+Az aktuális készlet, ár és termékelérhetőség nem ellenőrzött, ezért nincs feltüntetve.
+A CMS, favicon, navigáció, többi oldal és domainbeállítás változatlan.
+GitHub: ZIP tartalmát a repository gyökerébe feltölteni, commit.

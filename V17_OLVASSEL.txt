@@ -1,0 +1,9 @@
+# Fű-Fa-Virág V17 – saját termékfotók (ELŐNÉZET)
+
+A V16 alapján készült; a három kategóriaoldalon a régi fufavirag.com saját termékfotóira mutató hivatkozásokat használtuk.
+
+FONTOS: A képek még a Shoprenter CDN-ről töltődnek be, NEM kerültek bele a ZIP-be. Ha a régi Shoprenter tárhely megszűnik, a képek eltűnhetnek. Ezért a V17-et egyelőre tesztverzióként kezeld, ne végleges migrációként.
+
+A képek végleges átviteléhez a `termekfotok.csv` fájlban felsorolt URL-eket böngészőben megnyitva töltsd le a fotókat az `images/products/` mappába, majd a HTML-ben cseréld a CDN URL-eket helyi útvonalakra. A lista 9 egyedi képet tartalmaz. A képek mentése után a weboldal függetleníthető a Shoprentertől.
+
+A fejléc, favicon, CMS és a többi oldal változatlan.

@@ -1,0 +1,7 @@
+V18 – Saját termékfotók tesztje
+
+A viragcsokrok.html oldalon 6 feltöltött WebP fotó látható. A képek a images/products mappába kerültek. A négy rendelkezésre álló leírást változtatás nélkül átvettük a képleírás.docx dokumentumból. A bordó és lilás csokorhoz nem volt leírás; ezekhez semleges helyőrző szöveg került.
+
+A többi oldal és a CMS konfigurációja változatlan. A növények és dekorációk V17-es, külső Shoprenter-képhivatkozásai továbbra is fennállhatnak.
+
+Telepítés: a ZIP tartalmát a GitHub repo gyökerébe másold és commitold.
