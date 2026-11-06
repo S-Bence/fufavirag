@@ -1,0 +1,1 @@
+V23 – Növények oldal: 21 saját termékfotó, Word-dokumentumból átvett leírások, V22-höz illeszkedő képkártyák. A Virágcsokrok oldalt a V22 változatra frissítettük. A többi oldal változatlan. A teljes csomag tartalmát a repository gyökerébe másold.
