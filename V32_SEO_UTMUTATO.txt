@@ -1,0 +1,14 @@
+FŰ-FA-VIRÁG V32 – SEO FRISSÍTÉS
+
+A ZIP tartalmát (6 HTML fájl) töltsd fel a GitHub repository gyökérkönyvtárába.
+A régi, azonos nevű fájlokat cseréld le; a képekhez és egyéb fájlokhoz ne nyúlj.
+
+Változások:
+- Egyedi, helyi keresésekre hangolt title és meta description mind a 6 oldalon.
+- Oldalanként helyes Open Graph cím, leírás és URL.
+- BreadcrumbList strukturált adat az 5 aloldalon.
+
+Nem változott: vizuális megjelenés, navigáció, galéria, lightbox, képek, CMS, robots.txt, sitemap.xml.
+
+Fontos: a fufavirag.com -> fufavirag.hu átirányítás külön konfigurációs feladat.
+A keresőbeli helyezés és indexelés nem garantálható.
