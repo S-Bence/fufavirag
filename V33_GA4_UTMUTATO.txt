@@ -1,0 +1,23 @@
+FŰ-FA-VIRÁG V33 – GOOGLE ANALYTICS 4 ÉS ANALITIKAI HOZZÁJÁRULÁS
+
+GA4 mérési azonosító: G-QG1WYTXSSK
+
+Módosított oldalak: viragcsokrok.html, kapcsolat.html, galeria.html, index.html, dekoraciok.html, novenyek.html
+Új fájlok: assets/analytics-consent-v33.js és assets/analytics-consent-v33.css
+
+Működés:
+- Első látogatáskor választási ablak: Elfogadom / Elutasítom.
+- Az analitikai Google-szkript csak elfogadás után töltődik be.
+- Elutasításkor nincs Google Analytics hálózati kérés.
+- A választás böngészőben tárolódik; Sütibeállítások gombbal később módosítható.
+- A hirdetési célú hozzájárulások tiltottak.
+
+Teszt:
+1. Töltsd fel az összes fájlt a GitHub repó gyökerébe, commit.
+2. Nyisd meg inkognitóban a https://www.fufavirag.hu oldalt.
+3. Elutasításkor a Google Analytics nem indul el.
+4. Elfogadáskor az Analytics Valós idejű jelentésében ellenőrizd a látogatást.
+5. Ellenőrizd az aloldalakat is.
+
+MEGJEGYZÉS: A technikai hozzájárulási megoldás nem helyettesíti a honlap adatkezelési tájékoztatójának jogi ellenőrzését.
+A már engedélyezett analitika elutasítása nem vonja vissza a korábban elküldött adatokat; az aktuális oldalon az adatgyűjtés leállításához újratöltés szükséges.

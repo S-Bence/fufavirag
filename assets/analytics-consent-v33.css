@@ -1,0 +1,10 @@
+/* Fű-Fa-Virág: adatvédelmi választás */
+.ffv-consent-panel{position:fixed;z-index:2147483640;bottom:20px;left:20px;right:20px;max-width:620px;margin:auto;background:#fff;color:#26372d;border:1px solid #d7e1d9;border-radius:16px;box-shadow:0 12px 42px rgba(0,0,0,.19);padding:22px 24px;font:inherit;line-height:1.5}
+.ffv-consent-panel[hidden]{display:none!important}
+.ffv-consent-panel h2{font-size:20px;margin:0 0 8px;color:#254d35}
+.ffv-consent-panel p{font-size:14px;margin:0 0 14px;color:#34453a}
+.ffv-consent-actions{display:flex;gap:10px;flex-wrap:wrap}
+.ffv-consent-actions button{cursor:pointer;border-radius:8px;padding:11px 18px;font-size:14px;font-weight:600;border:1px solid #315d40;background:white;color:#315d40}
+.ffv-consent-actions button.ffv-accept{background:#315d40;color:white}
+.ffv-consent-settings{position:fixed;z-index:2147483630;bottom:12px;left:12px;border:1px solid #a6b9aa;border-radius:50px;background:white;color:#254d35;font-size:12px;padding:7px 12px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.09)}
+@media(max-width:640px){.ffv-consent-panel{left:10px;right:10px;bottom:12px;padding:18px}.ffv-consent-actions button{flex:1 1 130px}}
