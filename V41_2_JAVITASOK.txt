@@ -1,0 +1,2 @@
+V41.2 – Egységes kategória-Lightbox
+A régi és az új termékkártyák képei egyetlen közös galériában lapozhatók, kategóriánként. A többképes új termékek további fotói is szerepelnek a közös sorrendben. A külön V41-es újtermék-Lightbox eltávolítva. Nincs szezonális szűrés.

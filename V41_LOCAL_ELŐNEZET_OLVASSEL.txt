@@ -1,0 +1,8 @@
+V41 – HELYI ELŐNÉZET
+
+Az új termékek és a korábbi termékek együtt láthatók.
+NINCS szezonális szűrés, minden új termék látható.
+A többképes új termékek a Lightboxban lapozhatók.
+
+Helyi megnyitás: index.html, majd kategóriák.
+A változáscsomagot csak az ellenőrzés után commitold.

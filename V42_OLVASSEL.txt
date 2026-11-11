@@ -1,0 +1,8 @@
+V42 HELYI TESZT – még NE commitold.
+
+A termékek az Aktív, Szezon és dátum mezők szerint jelennek meg.
+Dátumteszt: novenyek.html?datum=2026-12-01 vagy adventi-dekoraciok.html?datum=2027-04-01
+Az adventi menüpont november 15. és december 24. között látszik, az oldal direkt linkkel mindig elérhető.
+A meglévő katalógus „Ellenőrizendő” szezonértéke egyelőre egész éves megjelenést jelent, nehogy véletlenül eltűnjenek termékek.
+A termékkatalógusból még nem párosított régi kártyák is láthatók maradnak.
+A lightbox csak a látható kártyák fotóit veszi figyelembe.

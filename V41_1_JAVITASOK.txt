@@ -1,0 +1,6 @@
+V41.1 helyi tesztverzió
+- Új termékek Lightbox: kategórián belül az összes új termékfotó között lapozható, nem csak egy termék képei között.
+- Az egy termékhez tartozó további képek egymás mellett szerepelnek a galériában.
+- Kategóriák és termékadatok frissítve a 2026-11-11-i javított Excel alapján.
+- Szezonális és aktív státusz szerinti szűrés továbbra sincs bekapcsolva.
+- A korábbi termékek Lightbox kódját nem módosítottuk.

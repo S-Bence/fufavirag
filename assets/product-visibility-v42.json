@@ -1,0 +1,506 @@
+{
+  "WEB-001": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-002": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-003": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-004": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-005": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-006": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-007": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-008": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-009": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-010": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-011": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-012": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-013": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-014": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-015": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-016": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-017": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-018": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-019": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-020": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-021": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-022": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-023": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-024": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-025": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-026": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-027": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-028": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-029": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-030": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-031": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-032": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-033": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-034": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-035": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-036": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-037": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-038": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-039": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-040": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-041": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-042": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-043": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-044": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-045": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-046": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-047": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-048": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "WEB-049": {
+    "active": true,
+    "season": "Ellenőrizendő",
+    "start": "",
+    "end": ""
+  },
+  "KOV-001": {
+    "active": true,
+    "season": "Ősz",
+    "start": "09.01",
+    "end": "11.15"
+  },
+  "UJ-051": {
+    "active": true,
+    "season": "Egész évben",
+    "start": "",
+    "end": ""
+  },
+  "UJ-052": {
+    "active": true,
+    "season": "Ősz",
+    "start": "09.01",
+    "end": "11.15"
+  },
+  "UJ-053": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "UJ-054": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "UJ-055": {
+    "active": true,
+    "season": "Egész évben",
+    "start": "",
+    "end": ""
+  },
+  "TAV-001": {
+    "active": true,
+    "season": "Egész évben",
+    "start": "",
+    "end": ""
+  },
+  "UJ-057": {
+    "active": true,
+    "season": "Egész évben",
+    "start": "",
+    "end": ""
+  },
+  "UJ-058": {
+    "active": true,
+    "season": "Egész évben",
+    "start": "",
+    "end": ""
+  },
+  "TAV-002": {
+    "active": true,
+    "season": "Egész évben",
+    "start": "",
+    "end": ""
+  },
+  "UJ-060": {
+    "active": true,
+    "season": "Egész évben",
+    "start": "",
+    "end": ""
+  },
+  "UJ-061": {
+    "active": true,
+    "season": "Egész évben",
+    "start": "",
+    "end": ""
+  },
+  "UJ-062": {
+    "active": true,
+    "season": "Egész évben",
+    "start": "",
+    "end": ""
+  },
+  "UJ-063": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "UJ-064": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "UJ-065": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "UJ-066": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "UJ-067": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "UJ-068": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "UJ-069": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "NOV-001": {
+    "active": true,
+    "season": "Ősz",
+    "start": "09.01",
+    "end": "11.15"
+  },
+  "UJ-071": {
+    "active": true,
+    "season": "Tavasz / húsvét",
+    "start": "03.01",
+    "end": "05.15"
+  },
+  "UJ-072": {
+    "active": true,
+    "season": "Ősz",
+    "start": "09.01",
+    "end": "11.15"
+  },
+  "UJ-073": {
+    "active": true,
+    "season": "Egész évben",
+    "start": "",
+    "end": ""
+  },
+  "UJ-074": {
+    "active": true,
+    "season": "Egész évben",
+    "start": "",
+    "end": ""
+  },
+  "UJ-075": {
+    "active": true,
+    "season": "Egész évben",
+    "start": "",
+    "end": ""
+  },
+  "UJ-076": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "UJ-077": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "UJ-078": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "UJ-079": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "UJ-080": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "UJ-081": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "UJ-082": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "UJ-083": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  },
+  "UJ-084": {
+    "active": true,
+    "season": "Advent / karácsony",
+    "start": "11.15",
+    "end": "12.26"
+  }
+}
