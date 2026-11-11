@@ -1,0 +1,10 @@
+FŰ-FA-VIRÁG – V43 – technikai SEO javítások
+
+1. Minden publikus HTML-oldalon a Főoldal és logó index.html hivatkozásai / formára váltottak.
+2. Meglévő favicon-192.png alapján készült favicon-48.png; az összes publikus HTML fejléce ezt is megadja. A régi favicon.svg, favicon.ico és apple-touch-icon.png megmaradt.
+3. A canonical URL-ek változatlanok; a főoldalé már https://fufavirag.hu/ volt.
+4. A kategóriaoldalak .html URL-jeit nem változtattuk.
+5. Ez NEM hoz létre szerveroldali 301 átirányítást /index.html -> / között. GitHub Pages esetén ehhez külön megoldás szükséges; a főoldal canonical és belső linkjei viszont már /-ra mutatnak.
+6. Google kereső favicon frissülése nem azonnali és nem garantálható; Search Console URL-vizsgálat után indexelés kérése ajánlott.
+
+Feltöltés: a ZIP belsejében a fufavirag-main mappa alatti fájlokat a repository gyökerébe kell másolni, a mappaszerkezet megtartásával.
