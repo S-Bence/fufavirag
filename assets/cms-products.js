@@ -18,7 +18,7 @@ function shown(p){
  const range=seasons[p.season];return !range||inRange(...range);
 }
 fetch('/content/products-'+category+'.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('products');return r.json();}).then(data=>{
- if(!Array.isArray(data.items)||!data.items.length)return;
+ if(!Array.isArray(data.items))return;
  const frag=document.createDocumentFragment();
  data.items.map((p,i)=>({p,i})).filter(({p})=>shown(p)&&safe(p.image)).sort((a,b)=>(Number(a.p.order??0))-(Number(b.p.order??0))||a.i-b.i).forEach(({p,i})=>{
   const paths=[p.image,...(Array.isArray(p.extra_images)?p.extra_images:[]).filter(safe).filter(x=>x!==p.image)];
