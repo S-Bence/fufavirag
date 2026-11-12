@@ -18,7 +18,7 @@ function shown(p){
 fetch('/content/products.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('products');return r.json();}).then(data=>{
  if(!Array.isArray(data.items))return;
  const frag=document.createDocumentFragment();
- data.items.forEach((p,i)=>{
+ data.items.map((p,i)=>({p,i})).sort((a,b)=>(Number(a.p.order)||100)-(Number(b.p.order)||100)||a.i-b.i).forEach(({p,i})=>{
   if(!p||p.category!==category||!shown(p)||!safe(p.image))return;
   const paths=[p.image,...(Array.isArray(p.extra_images)?p.extra_images:[]).filter(safe)];
   const card=document.createElement('article');card.className='v18-product';card.dataset.productId='CMS-'+i;
