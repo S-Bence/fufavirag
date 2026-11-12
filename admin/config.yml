@@ -4,7 +4,7 @@
 backend:
   name: github
   repo: S-Bence/fufavirag
-  branch: main
+  branch: develop
   base_url: https://fufavirag-cms-auth.stremenbence83-823.workers.dev
   auth_endpoint: auth
   site_domain: fufavirag.hu
