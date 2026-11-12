@@ -1,4 +1,4 @@
-/* CMS-managed product additions. Existing static catalogue remains untouched. */
+/* CMS product catalogue; retain static cards until data loads successfully. */
 (()=>{'use strict';
 const grid=document.querySelector('.v18-products');
 if(!grid)return;
@@ -8,29 +8,32 @@ const safe=s=>typeof s==='string'&&/^\/?images\/[a-zA-Z0-9_./-]+\.(webp|png|jpe?
 const dateParam=new URLSearchParams(location.search).get('datum');
 const date=dateParam&&/^\d{4}-\d{2}-\d{2}$/.test(dateParam)?new Date(dateParam+'T12:00:00'):new Date();
 const day=String(date.getMonth()+1).padStart(2,'0')+'.'+String(date.getDate()).padStart(2,'0');
-function mmdd(v){const m=String(v||'').match(/^(\d{2})-(\d{2})$/);return m?m[1]+'.'+m[2]:'';}
+const seasons={'Tavasz / húsvét':['03.01','05.15'],'Ősz':['09.01','11.15'],'Advent / karácsony':['11.15','12.26'],'Tavasz':['03.01','05.31'],'Nyár':['06.01','08.31'],'Tél':['12.01','02.28']};
+function mmdd(v){const m=String(v||'').match(/^(\d{2})[.\-](\d{2})$/);return m?m[1]+'.'+m[2]:'';}
+function inRange(a,b){return a<=b?(day>=a&&day<=b):(day>=a||day<=b);}
 function shown(p){
  if(p.published!==true)return false;
  const a=mmdd(p.start),b=mmdd(p.end);
- if(!a||!b)return true;
- return a<=b?(day>=a&&day<=b):(day>=a||day<=b);
+ if(a&&b)return inRange(a,b);
+ const range=seasons[p.season];return !range||inRange(...range);
 }
 fetch('/content/products.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('products');return r.json();}).then(data=>{
- if(!Array.isArray(data.items))return;
+ if(!Array.isArray(data.items)||!data.items.some(p=>p.category===category))return;
  const frag=document.createDocumentFragment();
- data.items.map((p,i)=>({p,i})).sort((a,b)=>(Number(a.p.order)||100)-(Number(b.p.order)||100)||a.i-b.i).forEach(({p,i})=>{
-  if(!p||p.category!==category||!shown(p)||!safe(p.image))return;
-  const paths=[p.image,...(Array.isArray(p.extra_images)?p.extra_images:[]).filter(safe)];
-  const card=document.createElement('article');card.className='v18-product';card.dataset.productId='CMS-'+i;
+ data.items.map((p,i)=>({p,i})).filter(({p})=>p.category===category&&shown(p)&&safe(p.image)).sort((a,b)=>(Number(a.p.order)||100)-(Number(b.p.order)||100)||a.i-b.i).forEach(({p,i})=>{
+  const paths=[p.image,...(Array.isArray(p.extra_images)?p.extra_images:[]).filter(safe).filter(x=>x!==p.image)];
+  const card=document.createElement('article');card.className='v18-product';card.dataset.productId=String(p.id||'CMS-'+i);
   const media=document.createElement('div');media.className='v20-product-media';
   const img=document.createElement('img');img.src=paths[0];img.alt=String(p.title||'Virágfotó');img.loading='lazy';img.decoding='async';
   img.dataset.extraImages=JSON.stringify(paths);media.appendChild(img);
   const copy=document.createElement('div');copy.className='v18-product-copy';
-  const h=document.createElement('h3');h.textContent=String(p.title||'');const desc=document.createElement('p');desc.textContent=String(p.description||'');
-  copy.append(h,desc);card.append(media,copy);frag.appendChild(card);
+  const h=document.createElement('h3');h.textContent=String(p.title||'');copy.appendChild(h);
+  if(p.description){const desc=document.createElement('p');desc.textContent=String(p.description);copy.appendChild(desc);}
+  card.append(media,copy);frag.appendChild(card);
  });
- grid.appendChild(frag);
+ grid.replaceChildren(frag);
  const empty=grid.nextElementSibling;
- if(grid.querySelector('.v18-product:not([hidden])')&&empty?.classList.contains('v42-empty'))empty.remove();
-}).catch(e=>console.warn('A CMS termékek nem tölthetők be:',e));
+ if(empty?.classList.contains('v42-empty'))empty.remove();
+ if(!grid.children.length){const p=document.createElement('p');p.className='v42-empty';p.textContent='Jelenleg nincs megjeleníthető termék ebben a kategóriában.';grid.after(p);}
+}).catch(e=>console.warn('CMS katalógus betöltési hiba, a régi kártyák megmaradnak:',e));
 })();
