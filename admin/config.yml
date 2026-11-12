@@ -12,6 +12,8 @@ backend:
 media_folder: images/uploads
 public_folder: /images/uploads
 locale: hu
+site_url: https://fufavirag-test.pages.dev
+display_url: https://fufavirag-test.pages.dev
 publish: false
 collections:
   - name: content
@@ -65,7 +67,7 @@ collections:
                 widget: list
                 required: false
                 field: {label: Fotó, name: image, widget: image}
-              - {label: Megjelenítési sorrend (0 = legelső), name: order, widget: number, value_type: int, min: 0, default: 0}
+              - {label: Megjelenítési sorrend (nagyobb = előrébb), name: order, widget: number, value_type: int, min: 0, default: 999999}
               - {label: Közzétéve, name: published, widget: boolean, default: false}
               - label: Szezon
                 name: season
@@ -94,7 +96,7 @@ collections:
                 widget: list
                 required: false
                 field: {label: Fotó, name: image, widget: image}
-              - {label: Megjelenítési sorrend (0 = legelső), name: order, widget: number, value_type: int, min: 0, default: 0}
+              - {label: Megjelenítési sorrend (nagyobb = előrébb), name: order, widget: number, value_type: int, min: 0, default: 999999}
               - {label: Közzétéve, name: published, widget: boolean, default: false}
               - label: Szezon
                 name: season
@@ -123,7 +125,7 @@ collections:
                 widget: list
                 required: false
                 field: {label: Fotó, name: image, widget: image}
-              - {label: Megjelenítési sorrend (0 = legelső), name: order, widget: number, value_type: int, min: 0, default: 0}
+              - {label: Megjelenítési sorrend (nagyobb = előrébb), name: order, widget: number, value_type: int, min: 0, default: 999999}
               - {label: Közzétéve, name: published, widget: boolean, default: false}
               - label: Szezon
                 name: season
@@ -152,7 +154,7 @@ collections:
                 widget: list
                 required: false
                 field: {label: Fotó, name: image, widget: image}
-              - {label: Megjelenítési sorrend (0 = legelső), name: order, widget: number, value_type: int, min: 0, default: 0}
+              - {label: Megjelenítési sorrend (nagyobb = előrébb), name: order, widget: number, value_type: int, min: 0, default: 999999}
               - {label: Közzétéve, name: published, widget: boolean, default: false}
               - label: Szezon
                 name: season
