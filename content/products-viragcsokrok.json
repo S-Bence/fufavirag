@@ -1,0 +1,172 @@
+{
+  "items": [
+    {
+      "id": "UJ-075",
+      "title": "Kék hortenziás csokor fehér boglárkával",
+      "description": "Hajtatott virágokból elegáns, kerek csokor.",
+      "image": "images/catalog/mg-0387.webp",
+      "extra_images": [],
+      "order": 10,
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": ""
+    },
+    {
+      "id": "UJ-074",
+      "title": "Variációk orgonára",
+      "description": "Hajtatott orgona, vidám kiegészítő virágokkal.",
+      "image": "images/catalog/mg-0370.webp",
+      "extra_images": [],
+      "order": 20,
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": ""
+    },
+    {
+      "id": "UJ-061",
+      "title": "Vegyes vidám tavaszi csokor",
+      "description": "Színes tavaszi csokor jácinttal, boglárkával, tulipánnal és szellőrózsával vegyesen, zöldekkel díszítve.",
+      "image": "images/catalog/1643639889213.webp",
+      "extra_images": [],
+      "order": 30,
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": ""
+    },
+    {
+      "id": "TAV-002",
+      "title": "Rózsaszín tavaszi csokor",
+      "description": "Rózsaszínes csokor, tavaszi virágokból vegyesen (pl. jácint, boglárka, tulipán, szellőrózsa, labdarózsa stb.), zöldekkel díszítve.",
+      "image": "images/catalog/1643639857686.webp",
+      "extra_images": [],
+      "order": 40,
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": ""
+    },
+    {
+      "id": "UJ-058",
+      "title": "Szív alakú doboz kicsi",
+      "description": "Különleges, tartós, egyedi ajándék lehet bámilyen alkalomra. Szív alakú dobozban, gondosan összeválogatott, friss vágott virágok.",
+      "image": "images/catalog/1643639837391.webp",
+      "extra_images": [],
+      "order": 50,
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": ""
+    },
+    {
+      "id": "UJ-057",
+      "title": "Kék-fehér tavaszi csokor",
+      "description": "Elegáns kék és fehér virágokból készült csokor, tavaszi virágokból vegyesen (pl. jácint, boglárka, tulipán, szellőrózsa, labdarózsa stb.), zöldekkel díszítve.",
+      "image": "images/catalog/1643639790262.webp",
+      "extra_images": [],
+      "order": 60,
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": ""
+    },
+    {
+      "id": "TAV-001",
+      "title": "Tavaszi csokor boglárkával és jácinttal",
+      "description": "Rózsaszínes csokor, tavaszi virágokból vegyesen (pl. jácint, boglárka, tulipán, szellőrózsa, labdarózsa stb.), zöldekkel díszítve.",
+      "image": "images/catalog/1643639776003.webp",
+      "extra_images": [],
+      "order": 70,
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": ""
+    },
+    {
+      "id": "UJ-055",
+      "title": "Szív alakú virágdoboz",
+      "description": "Különleges, tartós, egyedi ajándék lehet bámilyen alkalomra. Szív alakú dobozban, gondosan összeválogatott, friss vágott virágok.",
+      "image": "images/catalog/1642933670490.webp",
+      "extra_images": [],
+      "order": 80,
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": ""
+    },
+    {
+      "id": "WEB-001",
+      "title": "Angolrózsa-csokor",
+      "description": "Magyar termesztésű illatos angol rózsák, kerek csokorba kötve.",
+      "image": "images/lightbox/angolrozsa-csokor.webp",
+      "extra_images": [],
+      "order": 90,
+      "published": true,
+      "season": "Ellenőrizendő",
+      "start": "",
+      "end": ""
+    },
+    {
+      "id": "WEB-002",
+      "title": "Boglárka",
+      "description": "Púder színű, romantikus, tartós virág.",
+      "image": "images/lightbox/boglarka.webp",
+      "extra_images": [],
+      "order": 100,
+      "published": true,
+      "season": "Ellenőrizendő",
+      "start": "",
+      "end": ""
+    },
+    {
+      "id": "WEB-003",
+      "title": "Vágott hortenzia",
+      "description": "Önmagában is nagyon látványos, gyönyörű színekben pompázó hortenzia fejek.",
+      "image": "images/products/vagott-hortenzia.webp",
+      "extra_images": [],
+      "order": 110,
+      "published": true,
+      "season": "Ellenőrizendő",
+      "start": "",
+      "end": ""
+    },
+    {
+      "id": "WEB-004",
+      "title": "Peónia – bazsarózsa",
+      "description": "Szálas bazsarózsa, rózsaszín, fehér, magenta, bordó színekben.",
+      "image": "images/lightbox/peonia.webp",
+      "extra_images": [],
+      "order": 120,
+      "published": true,
+      "season": "Ellenőrizendő",
+      "start": "",
+      "end": ""
+    },
+    {
+      "id": "WEB-005",
+      "title": "Bordó csokor",
+      "description": "",
+      "image": "images/lightbox/bordo-csokor.webp",
+      "extra_images": [],
+      "order": 130,
+      "published": true,
+      "season": "Ellenőrizendő",
+      "start": "",
+      "end": ""
+    },
+    {
+      "id": "WEB-006",
+      "title": "Lilás csokor",
+      "description": "",
+      "image": "images/lightbox/lilas-csokor.webp",
+      "extra_images": [],
+      "order": 140,
+      "published": true,
+      "season": "Ellenőrizendő",
+      "start": "",
+      "end": ""
+    }
+  ]
+}
