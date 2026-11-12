@@ -1,0 +1,56 @@
+name: Production release safety check
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  release-safety:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out proposed changes
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Reject test settings and CMS data overwrites
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os, subprocess, sys
+          base = os.environ.get('GITHUB_BASE_REF', 'main')
+          subprocess.run(['git', 'fetch', 'origin', base], check=True)
+          files = subprocess.check_output(
+              ['git', 'diff', '--name-only', f'origin/{base}...HEAD'], text=True
+          ).splitlines()
+          protected = [p for p in files if (
+              p == 'admin/config.yml'
+              or p == '_headers'
+              or p.startswith('content/')
+              or p.startswith('images/uploads/')
+          )]
+          if protected:
+              print('BLOCKED: production-only configuration or CMS-managed content changed:')
+              print('\n'.join(protected))
+              print('Transfer application code separately from CMS content.')
+              sys.exit(1)
+          bad = []
+          for path in files:
+              if not os.path.isfile(path):
+                  continue
+              try:
+                  data = open(path, encoding='utf-8').read()
+              except (UnicodeError, OSError):
+                  continue
+              if 'fufavirag-test.pages.dev' in data or 'fufavirag-cms-auth-test' in data:
+                  bad.append(path)
+          if bad:
+              print('BLOCKED: test-environment URLs in proposed production files:')
+              print('\n'.join(bad))
+              sys.exit(1)
+          print('PASS: no protected CMS files or test-environment URLs in changed files.')
+          PY
