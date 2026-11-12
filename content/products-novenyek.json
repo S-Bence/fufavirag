@@ -1,29 +1,39 @@
 {
   "items": [
     {
+      "published": true,
+      "title": "Fehér madártej (Ornithogalum)",
+      "image": "/images/uploads/012.jpg",
+      "start": "04-01",
+      "end": "08-31",
+      "description": "Elegáns, hófehér virágaival és üde zöld leveleivel különleges dísze lehet otthonunknak. Világos, de közvetlen napsütéstől védett helyet kedvel. Mérsékelt öntözést igényel, a pangó vizet kerülni kell. ",
+      "order": 270,
+      "id": "CMS-1794517164560"
+    },
+    {
       "start": "03-01",
       "season": "Tavasz / húsvét",
       "extra_images": [],
       "published": true,
-      "order": 10,
+      "order": 260,
       "title": "Havasszépe - Rhododendron sp.",
       "end": "05-15",
       "id": "UJ-071",
-      "image": "images/catalog/img-20220402-152818.webp",
+      "image": "/images/catalog/img-20220402-152818.webp",
       "description": "Bokros növekedésű, kertben félárnyékos helyen tartható növény. Tavasszal virágba borul, sokféle színben kapható."
     },
     {
       "start": "09-01",
       "season": "Ősz",
       "extra_images": [
-        "images/catalog/img-1859.webp"
+        "/images/catalog/img-1859.webp"
       ],
       "published": true,
-      "order": 20,
+      "order": 250,
       "title": "Vékony hanga- Erica gracilis",
       "end": "11-15",
       "id": "NOV-001",
-      "image": "images/catalog/img-3870.webp",
+      "image": "/images/catalog/img-3870.webp",
       "description": "A vékony hanga egy 15–50 cm-es, napos vagy félárnyékos helyet kedvelő növény, amely ideális választás az őszi balkonládákba. Élénk virágai a fagyok beálltával, száradtan is egész télen át megőrzik színüket . Sikeres neveléséhez kizárólag savanyú földbe ültesse, és ügyeljen rá, hogy a talaja a bőséges öntözés mellett soha ne száradjon ki."
     },
     {
@@ -31,11 +41,11 @@
       "season": "Egész évben",
       "extra_images": [],
       "published": true,
-      "order": 30,
+      "order": 240,
       "title": "Pompás medinilla - medinilla magnifica",
       "end": "",
       "id": "UJ-062",
-      "image": "images/catalog/1648906624732.webp",
+      "image": "/images/catalog/1648906624732.webp",
       "description": "Könnyen tartható, különleges megjelenésű szobanövény. Nagyméretű, akár 30 cm-es, kissé fodros levelei közül bukkannak elő száron csüngő bimbói. Ezekből a bimbókból fejlődnek ki a hatalmas rózsaszín virágok melyek páratlan szépségét adják. Világos helyet, gyakori öntözést, 20 C körüli hőmérsékletet kedvel."
     },
     {
@@ -43,11 +53,11 @@
       "season": "Ősz",
       "extra_images": [],
       "published": true,
-      "order": 40,
+      "order": 230,
       "title": "Viaszvirág - Hoya sp.",
       "end": "11-15",
       "id": "UJ-052",
-      "image": "images/catalog/1632297764538.webp",
+      "image": "/images/catalog/1632297764538.webp",
       "description": "Különleges megjelenésű, húsos leveleivel és virágaival egyarán díszítő, futó szobanövény. Körben elhelyezkedő, porcelánra emlékeztető, műhatású virágai finom illatot árasztanak, több hétig a növényen maradnak. Világos helyen, mérsékelt öntözéssel könnyen tartható. Tavasztól őszig a tápoldatozást meghálálja."
     },
     {
@@ -55,11 +65,11 @@
       "season": "Egész évben",
       "extra_images": [],
       "published": true,
-      "order": 50,
+      "order": 220,
       "title": "Hawaii pálma - Brighamia insignis",
       "end": "",
       "id": "UJ-051",
-      "image": "images/catalog/1624371940735.webp",
+      "image": "/images/catalog/1624371940735.webp",
       "description": "Különleges kinézetű szobanövény. Szeptember-október folyamán virágzik. Minden virágfürtöt 3-8, krémfehér vagy sárga virág alkot. A világos, szórt fényt, a magas páratartalmat kedveli. Két öntözés között hagyjuk a talajt kiszáradni. Víztartó szára lehetővé teszi, hogy akár 6 hetet is kibírjon víz nélkül. Nyáron kitehető a szabadba, szélvédett árnyékos helyre. Ilyenkor van a növény pihenőideje."
     },
     {
@@ -67,11 +77,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 60,
+      "order": 210,
       "title": "orchidea",
       "end": "",
       "id": "WEB-007",
-      "image": "images/plants/orchidea.webp",
+      "image": "/images/plants/orchidea.webp",
       "description": "Tökéletes ajándék lehet lakásba, névnapra és születésnapra egyaránt. Virágzása több hónapig is eltarthat. A világos, de tűző naptól védett helyet kedveli. Hetente 1-szer, langyos vízzel érdemes locsolni/ beáztatni pár percre. Tavasztól őszig érdemes tápoldatozni."
     },
     {
@@ -79,11 +89,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 70,
+      "order": 200,
       "title": "Agglegénypálma - Zamioculcas zamiifolia",
       "end": "",
       "id": "WEB-008",
-      "image": "images/plants/agglegenypalma-zamioculcas-zamiifolia.webp",
+      "image": "/images/plants/agglegenypalma-zamioculcas-zamiifolia.webp",
       "description": "Igénytelen, könnyen tartható, dekoratív zöld szobanövény, fényes, apró, pénz formájú levelekkel."
     },
     {
@@ -91,11 +101,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 80,
+      "order": 190,
       "title": "Azálea - Rhododentron simsii",
       "end": "",
       "id": "WEB-009",
-      "image": "images/plants/azalea-rhododentron-simsii.webp",
+      "image": "/images/plants/azalea-rhododentron-simsii.webp",
       "description": "Kedvelt virágzó növény az azálea, hosszantartó virágzása és télen/nyáron zöld levelei miatt."
     },
     {
@@ -103,11 +113,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 90,
+      "order": 180,
       "title": "Bársonyos levélrózsa - Echeveria sp.",
       "end": "",
       "id": "WEB-010",
-      "image": "images/plants/barsonyos-levelrozsa-echeveria-sp.webp",
+      "image": "/images/plants/barsonyos-levelrozsa-echeveria-sp.webp",
       "description": "Pozsgás, évelő szobanövény, amely kevés vizet és sok fényt kedvel. A növény szürkészöld színű, finoman szőrözött, húsos levelei tőlevélrózsát alkotnak, ősszel bordós árnyalatot kapnak. Narancssárga virágai a tőlevélrózsa fölé magasodó száron nyílnak tavasszal. Télen az ablakban jól érzi magát, nyáron kitehető a szabadba. Különböző levélváltozatai vannak."
     },
     {
@@ -115,11 +125,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 100,
+      "order": 170,
       "title": "Ciklámen - Cyclamen persicum",
       "end": "",
       "id": "WEB-011",
-      "image": "images/lightbox/ciklamen-cyclamen-persicum.webp",
+      "image": "/images/lightbox/ciklamen-cyclamen-persicum.webp",
       "description": "Ősszel közkedvelt, mutatós, sokféle színben pompázó szobanövény."
     },
     {
@@ -127,11 +137,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 110,
+      "order": 160,
       "title": "Csarab - Calluna vulgaris",
       "end": "",
       "id": "WEB-012",
-      "image": "images/plants/csarab-calluna-vulgaris.webp",
+      "image": "/images/plants/csarab-calluna-vulgaris.webp",
       "description": "Évelő, örökzöld, ősszel virágzó cserje, többféle színben kapható üzletünkben."
     },
     {
@@ -139,11 +149,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 120,
+      "order": 150,
       "title": "Fekete hunyor - helleborus niger",
       "end": "",
       "id": "WEB-013",
-      "image": "images/plants/fekete-hunyor-helleborus-niger.webp",
+      "image": "/images/plants/fekete-hunyor-helleborus-niger.webp",
       "description": "Közepes termetű, évelő növény, melynek számos fajtája ismert."
     },
     {
@@ -151,11 +161,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 130,
+      "order": 140,
       "title": "Háziáldás - Soleirolia soleirolii",
       "end": "",
       "id": "WEB-014",
-      "image": "images/plants/hazialdas-soleirolia-soleirolii.webp",
+      "image": "/images/plants/hazialdas-soleirolia-soleirolii.webp",
       "description": "A háziáldás, vagy más néven párnafű egy apró leveleivel díszítő, párnaszerű, csüngő hatású, könnyen tartható szobanövény."
     },
     {
@@ -163,11 +173,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 140,
+      "order": 130,
       "title": "Hengeres anyósnyelv - Sansevieria cylindrica",
       "end": "",
       "id": "WEB-015",
-      "image": "images/plants/hengeres-anyosnyelv-sansevieria-cylindrica.webp",
+      "image": "/images/plants/hengeres-anyosnyelv-sansevieria-cylindrica.webp",
       "description": "A köznyelvben anyósnyelvnek is nevezett szanszeviéria a legtöbb otthonban megtalálható, kedvelt, gyakorlatilag igénytelen szobanövény."
     },
     {
@@ -175,11 +185,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 150,
+      "order": 120,
       "title": "Hortenzia",
       "end": "",
       "id": "WEB-016",
-      "image": "images/plants/hortenzia.webp",
+      "image": "/images/plants/hortenzia.webp",
       "description": "A hajtatott hortenzia szezon előtt direkt a szobába való,hogy könnyebb legyen várnunk a tavaszt."
     },
     {
@@ -187,11 +197,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 160,
+      "order": 110,
       "title": "Kávécserje - Coffea arabica",
       "end": "",
       "id": "WEB-017",
-      "image": "images/plants/kavecserje-coffea-arabica.webp",
+      "image": "/images/plants/kavecserje-coffea-arabica.webp",
       "description": "Kedvelt, könnyen tartható szobanövény. Világos helyet kedvel és rendszeres öntözést igényel."
     },
     {
@@ -199,11 +209,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 170,
+      "order": 100,
       "title": "Könnyezőpálma - Monstera deliciosa",
       "end": "",
       "id": "WEB-018",
-      "image": "images/plants/konnyezopalma-monstera-deliciosa.webp",
+      "image": "/images/plants/konnyezopalma-monstera-deliciosa.webp",
       "description": "Kedvelt levéldísznövény, különlegességét az óriási erősen tagolt, szabdalt levelei adják."
     },
     {
@@ -211,11 +221,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 180,
+      "order": 90,
       "title": "Mirtuszhanga - Gaultheria mucronata",
       "end": "",
       "id": "WEB-019",
-      "image": "images/plants/mirtuszhanga-gaultheria-mucronata.webp",
+      "image": "/images/plants/mirtuszhanga-gaultheria-mucronata.webp",
       "description": "Évelő, örökzöld díszcserje, apró színes bogyóival sokáig kertünk, balkonunk dísze lehet."
     },
     {
@@ -223,11 +233,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 190,
+      "order": 80,
       "title": "Papucs orchidea",
       "end": "",
       "id": "WEB-020",
-      "image": "images/plants/papucs-orchidea.webp",
+      "image": "/images/plants/papucs-orchidea.webp",
       "description": "Különleges megjelenésű, mintás levelű, papucsra emlékeztető virágú orchideafajta."
     },
     {
@@ -235,11 +245,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 200,
+      "order": 70,
       "title": "Pénzlevelű pilea - Pilea peperomioides",
       "end": "",
       "id": "WEB-021",
-      "image": "images/plants/penzlevelu-pilea-pilea-peperomioides.webp",
+      "image": "/images/plants/penzlevelu-pilea-pilea-peperomioides.webp",
       "description": "Pénzhozó szobanövénynek is tartják, kerek leveleivel nagyon dekoratív, kedvelt növény."
     },
     {
@@ -247,11 +257,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 210,
+      "order": 60,
       "title": "Pompás medinilla - medinilla magnifica",
       "end": "",
       "id": "WEB-022",
-      "image": "images/plants/pompas-medinilla-medinilla-magnifica.webp",
+      "image": "/images/plants/pompas-medinilla-medinilla-magnifica.webp",
       "description": "Könnyen tartható, különleges megjelenésű szobanövény."
     },
     {
@@ -259,11 +269,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 220,
+      "order": 50,
       "title": "Szakállbromélia - Tillansia cyanea",
       "end": "",
       "id": "WEB-023",
-      "image": "images/plants/szakallbromelia-tillansia-cyanea.webp",
+      "image": "/images/plants/szakallbromelia-tillansia-cyanea.webp",
       "description": "Egyedi megjelenésű, nagyon dekoratív a bromélia, lila virágával és kócos leveleivel díszít."
     },
     {
@@ -271,11 +281,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 230,
+      "order": 40,
       "title": "Szobai szanszeviéria - Dracaena sp",
       "end": "",
       "id": "WEB-024",
-      "image": "images/plants/szobai-szanszevieria-dracaena-sp.webp",
+      "image": "/images/plants/szobai-szanszevieria-dracaena-sp.webp",
       "description": "A köznyelvben anyósnyelvnek is nevezett szobai szanszeviéria a legtöbb otthonban megtalálható, kedvelt, gyakorlatilag igénytelen szobanövény."
     },
     {
@@ -283,11 +293,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 240,
+      "order": 30,
       "title": "Törpebors - Peperomia sp.",
       "end": "",
       "id": "WEB-025",
-      "image": "images/plants/torpebors-peperomia-sp.webp",
+      "image": "/images/plants/torpebors-peperomia-sp.webp",
       "description": "Nagyon izgalmas külsejű szobanövény, melynek levelei kerekdedek, kissé hosszúkásak, és zöld, bézs, valamint rózsaszín árnyalatban, három színben játszanak."
     },
     {
@@ -295,11 +305,11 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 250,
+      "order": 20,
       "title": "Vesszőkaktusz - Rhipsalis sp.",
       "end": "",
       "id": "WEB-026",
-      "image": "images/plants/vesszokaktusz-rhipsalis-sp.webp",
+      "image": "/images/plants/vesszokaktusz-rhipsalis-sp.webp",
       "description": "A vesszőkaktusz egy igen érdekes, egyedi megjelenésű kaktusz faj, hosszú, vékony, világoszöld színű lecsüngő szárak alkotják, amelyeken tavasszal zöldes fehér pici virágokat, valamint világoszöld bogyókat is hoz."
     },
     {
@@ -307,22 +317,12 @@
       "season": "Ellenőrizendő",
       "extra_images": [],
       "published": true,
-      "order": 260,
+      "order": 10,
       "title": "Vitorlavirág - Spathiphyllum wallisii",
       "end": "",
       "id": "WEB-027",
-      "image": "images/plants/vitorlavirag-spathiphyllum-wallisii.webp",
+      "image": "/images/plants/vitorlavirag-spathiphyllum-wallisii.webp",
       "description": "A vitorlavirág az egyik legkönnyebben tartható szobanövény, mely folyamatos virágzásával méltó dísze lehet bármilyen helyiségnek."
-    },
-    {
-      "published": true,
-      "title": "Fehér madártej (Ornithogalum)",
-      "image": "/images/uploads/012.jpg",
-      "start": "04-01",
-      "end": "08-31",
-      "description": "Elegáns, hófehér virágaival és üde zöld leveleivel különleges dísze lehet otthonunknak. Világos, de közvetlen napsütéstől védett helyet kedvel. Mérsékelt öntözést igényel, a pangó vizet kerülni kell. ",
-      "order": 0,
-      "id": "CMS-1794517164560"
     }
   ]
 }
