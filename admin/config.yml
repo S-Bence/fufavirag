@@ -46,9 +46,9 @@ collections:
             fields:
               - {label: Fotó, name: image, widget: image}
               - {label: Képleírás, name: alt, widget: string}
-      - name: products
-        label: Termékkatalógus
-        file: content/products.json
+      - name: products_viragcsokrok
+        label: Virágcsokrok – termékek
+        file: content/products-viragcsokrok.json
         fields:
           - label: Termékek
             name: items
@@ -58,21 +58,72 @@ collections:
             fields:
               - {label: Azonosító, name: id, widget: string, required: false}
               - {label: Név, name: title, widget: string}
-              - {label: Leírás, name: description, widget: text}
-              - label: Kategória
-                name: category
-                widget: select
-                options:
-                  - {label: Virágcsokrok, value: viragcsokrok}
-                  - {label: Növények, value: novenyek}
-                  - {label: Dekorációk, value: dekoraciok}
+              - {label: Leírás, name: description, widget: text, required: false}
               - {label: Főkép, name: image, widget: image}
               - label: További képek
                 name: extra_images
                 widget: list
                 required: false
                 field: {label: Fotó, name: image, widget: image}
-              - {label: Megjelenítési sorrend, name: order, widget: number, value_type: int, min: 1, default: 100}
+              - {label: Megjelenítési sorrend (0 = legelső), name: order, widget: number, value_type: int, min: 0, default: 0}
+              - {label: Közzétéve, name: published, widget: boolean, default: false}
+              - label: Szezon
+                name: season
+                widget: select
+                required: false
+                default: Egész évben
+                options: ['Egész évben', 'Ellenőrizendő', 'Tavasz / húsvét', 'Ősz', 'Advent / karácsony', 'Tavasz', 'Nyár', 'Tél']
+              - {label: Kezdőnap (HH-NN), name: start, widget: string, required: false, pattern: ['^([0-1][0-9])-(0[1-9]|[12][0-9]|3[01])$', 'Példa: 11-15']}
+              - {label: Zárónap (HH-NN), name: end, widget: string, required: false, pattern: ['^([0-1][0-9])-(0[1-9]|[12][0-9]|3[01])$', 'Példa: 12-26']}
+      - name: products_novenyek
+        label: Növények – termékek
+        file: content/products-novenyek.json
+        fields:
+          - label: Termékek
+            name: items
+            widget: list
+            required: false
+            summary: '{{fields.title}}'
+            fields:
+              - {label: Azonosító, name: id, widget: string, required: false}
+              - {label: Név, name: title, widget: string}
+              - {label: Leírás, name: description, widget: text, required: false}
+              - {label: Főkép, name: image, widget: image}
+              - label: További képek
+                name: extra_images
+                widget: list
+                required: false
+                field: {label: Fotó, name: image, widget: image}
+              - {label: Megjelenítési sorrend (0 = legelső), name: order, widget: number, value_type: int, min: 0, default: 0}
+              - {label: Közzétéve, name: published, widget: boolean, default: false}
+              - label: Szezon
+                name: season
+                widget: select
+                required: false
+                default: Egész évben
+                options: ['Egész évben', 'Ellenőrizendő', 'Tavasz / húsvét', 'Ősz', 'Advent / karácsony', 'Tavasz', 'Nyár', 'Tél']
+              - {label: Kezdőnap (HH-NN), name: start, widget: string, required: false, pattern: ['^([0-1][0-9])-(0[1-9]|[12][0-9]|3[01])$', 'Példa: 11-15']}
+              - {label: Zárónap (HH-NN), name: end, widget: string, required: false, pattern: ['^([0-1][0-9])-(0[1-9]|[12][0-9]|3[01])$', 'Példa: 12-26']}
+      - name: products_dekoraciok
+        label: Dekorációk – termékek
+        file: content/products-dekoraciok.json
+        fields:
+          - label: Termékek
+            name: items
+            widget: list
+            required: false
+            summary: '{{fields.title}}'
+            fields:
+              - {label: Azonosító, name: id, widget: string, required: false}
+              - {label: Név, name: title, widget: string}
+              - {label: Leírás, name: description, widget: text, required: false}
+              - {label: Főkép, name: image, widget: image}
+              - label: További képek
+                name: extra_images
+                widget: list
+                required: false
+                field: {label: Fotó, name: image, widget: image}
+              - {label: Megjelenítési sorrend (0 = legelső), name: order, widget: number, value_type: int, min: 0, default: 0}
               - {label: Közzétéve, name: published, widget: boolean, default: false}
               - label: Szezon
                 name: season
