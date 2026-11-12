@@ -9,8 +9,8 @@
       "order": 10,
       "published": true,
       "season": "Tavasz / húsvét",
-      "start": "03.01",
-      "end": "05.15"
+      "start": "03-01",
+      "end": "05-15"
     },
     {
       "id": "NOV-001",
@@ -23,8 +23,8 @@
       "order": 20,
       "published": true,
       "season": "Ősz",
-      "start": "09.01",
-      "end": "11.15"
+      "start": "09-01",
+      "end": "11-15"
     },
     {
       "id": "UJ-062",
@@ -47,8 +47,8 @@
       "order": 40,
       "published": true,
       "season": "Ősz",
-      "start": "09.01",
-      "end": "11.15"
+      "start": "09-01",
+      "end": "11-15"
     },
     {
       "id": "UJ-051",
