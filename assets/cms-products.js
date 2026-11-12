@@ -3,7 +3,7 @@
 const grid=document.querySelector('.v18-products');
 if(!grid)return;
 const category=location.pathname.split('/').pop().replace('.html','');
-if(!['viragcsokrok','novenyek','dekoraciok'].includes(category))return;
+if(!['viragcsokrok','novenyek','dekoraciok','adventi-dekoraciok'].includes(category))return;
 const safe=s=>typeof s==='string'&&/^\/?images\/[a-zA-Z0-9_./-]+\.(webp|png|jpe?g)$/i.test(s)&&!s.includes('..');
 const dateParam=new URLSearchParams(location.search).get('datum');
 const date=dateParam&&/^\d{4}-\d{2}-\d{2}$/.test(dateParam)?new Date(dateParam+'T12:00:00'):new Date();
