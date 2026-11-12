@@ -133,3 +133,32 @@ collections:
                 options: ['Egész évben', 'Ellenőrizendő', 'Tavasz / húsvét', 'Ősz', 'Advent / karácsony', 'Tavasz', 'Nyár', 'Tél']
               - {label: Kezdőnap (HH-NN), name: start, widget: string, required: false, pattern: ['^([0-1][0-9])-(0[1-9]|[12][0-9]|3[01])$', 'Példa: 11-15']}
               - {label: Zárónap (HH-NN), name: end, widget: string, required: false, pattern: ['^([0-1][0-9])-(0[1-9]|[12][0-9]|3[01])$', 'Példa: 12-26']}
+      - name: products_adventi_dekoraciok
+        label: Adventi dekorációk – termékek
+        file: content/products-adventi-dekoraciok.json
+        fields:
+          - label: Termékek
+            name: items
+            widget: list
+            required: false
+            summary: '{{fields.title}}'
+            fields:
+              - {label: Azonosító, name: id, widget: string, required: false}
+              - {label: Név, name: title, widget: string}
+              - {label: Leírás, name: description, widget: text, required: false}
+              - {label: Főkép, name: image, widget: image}
+              - label: További képek
+                name: extra_images
+                widget: list
+                required: false
+                field: {label: Fotó, name: image, widget: image}
+              - {label: Megjelenítési sorrend (0 = legelső), name: order, widget: number, value_type: int, min: 0, default: 0}
+              - {label: Közzétéve, name: published, widget: boolean, default: false}
+              - label: Szezon
+                name: season
+                widget: select
+                required: false
+                default: Egész évben
+                options: ['Egész évben', 'Ellenőrizendő', 'Tavasz / húsvét', 'Ősz', 'Advent / karácsony', 'Tavasz', 'Nyár', 'Tél']
+              - {label: Kezdőnap (HH-NN), name: start, widget: string, required: false, pattern: ['^([0-1][0-9])-(0[1-9]|[12][0-9]|3[01])$', 'Példa: 11-15']}
+              - {label: Zárónap (HH-NN), name: end, widget: string, required: false, pattern: ['^([0-1][0-9])-(0[1-9]|[12][0-9]|3[01])$', 'Példa: 12-26']}
