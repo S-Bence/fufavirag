@@ -71,6 +71,7 @@ collections:
                 widget: list
                 required: false
                 field: {label: Fotó, name: image, widget: image}
+              - {label: Megjelenítési sorrend, name: order, widget: number, value_type: int, min: 1, default: 100}
               - {label: Közzétéve, name: published, widget: boolean, default: false}
               - {label: Kezdőnap (HH-NN), name: start, widget: string, required: false, pattern: ['^([0-1][0-9])-(0[1-9]|[12][0-9]|3[01])$', 'Példa: 11-15']}
               - {label: Zárónap (HH-NN), name: end, widget: string, required: false, pattern: ['^([0-1][0-9])-(0[1-9]|[12][0-9]|3[01])$', 'Példa: 12-26']}
