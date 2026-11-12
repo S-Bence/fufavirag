@@ -17,10 +17,10 @@ function shown(p){
  if(a&&b)return inRange(a,b);
  const range=seasons[p.season];return !range||inRange(...range);
 }
-fetch('/content/products.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('products');return r.json();}).then(data=>{
- if(!Array.isArray(data.items)||!data.items.some(p=>p.category===category))return;
+fetch('/content/products-'+category+'.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('products');return r.json();}).then(data=>{
+ if(!Array.isArray(data.items)||!data.items.length)return;
  const frag=document.createDocumentFragment();
- data.items.map((p,i)=>({p,i})).filter(({p})=>p.category===category&&shown(p)&&safe(p.image)).sort((a,b)=>(Number(a.p.order)||100)-(Number(b.p.order)||100)||a.i-b.i).forEach(({p,i})=>{
+ data.items.map((p,i)=>({p,i})).filter(({p})=>shown(p)&&safe(p.image)).sort((a,b)=>(Number(a.p.order??0))-(Number(b.p.order??0))||a.i-b.i).forEach(({p,i})=>{
   const paths=[p.image,...(Array.isArray(p.extra_images)?p.extra_images:[]).filter(safe).filter(x=>x!==p.image)];
   const card=document.createElement('article');card.className='v18-product';card.dataset.productId=String(p.id||'CMS-'+i);
   const media=document.createElement('div');media.className='v20-product-media';
