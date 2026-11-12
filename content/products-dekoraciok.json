@@ -9,8 +9,8 @@
       "order": 10,
       "published": true,
       "season": "Advent / karácsony",
-      "start": "11.15",
-      "end": "12.26"
+      "start": "11-15",
+      "end": "12-26"
     },
     {
       "id": "UJ-072",
@@ -21,8 +21,8 @@
       "order": 20,
       "published": true,
       "season": "Ősz",
-      "start": "09.01",
-      "end": "11.15"
+      "start": "09-01",
+      "end": "11-15"
     },
     {
       "id": "UJ-060",
@@ -48,8 +48,8 @@
       "order": 40,
       "published": true,
       "season": "Ősz",
-      "start": "09.01",
-      "end": "11.15"
+      "start": "09-01",
+      "end": "11-15"
     },
     {
       "id": "WEB-028",
