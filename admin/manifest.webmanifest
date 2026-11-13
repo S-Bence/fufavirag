@@ -1,0 +1,26 @@
+{
+  "id": "/admin/",
+  "name": "Fű-Fa-Virág – Termékkezelő",
+  "short_name": "Fű-Fa-Virág Admin",
+  "description": "Fű-Fa-Virág termékkártyák kezelése",
+  "lang": "hu",
+  "start_url": "/admin/",
+  "scope": "/admin/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#28583b",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
