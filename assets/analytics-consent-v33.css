@@ -10,3 +10,8 @@
 @media(max-width:640px){.ffv-consent-panel{left:10px;right:10px;bottom:12px;padding:18px}.ffv-consent-actions button{flex:1 1 130px}}
 
 @media(max-width:640px){.ffv-consent-footer{margin-left:4px;padding-left:12px}.ffv-consent-settings{font-size:11px;padding:7px 5px}}
+
+/* Keep both social icons and cookie settings on the same footer row. */
+.footer .social-links{flex-wrap:nowrap;flex-shrink:0;align-items:center;gap:12px}
+.footer .social-links .ffv-consent-footer{flex-shrink:0;margin-left:4px;padding-left:14px;align-self:center}
+@media(max-width:640px){.footer .social-links{gap:8px}.footer .social-links .ffv-consent-footer{padding-left:10px;margin-left:2px}}
