@@ -167,6 +167,18 @@
       "id": "WEB-006",
       "image": "/images/lightbox/lilas-csokor.webp",
       "description": ""
+    },
+    {
+      "id": "cms-hero-bouquet",
+      "title": "Színes, vegyes virágcsokor",
+      "description": "Vidám, színpompás virágcsokor változatos, szezonális virágokból. Egyedi összeállításaink az aktuális kínálat szerint készülnek.",
+      "image": "/images/hero.webp",
+      "extra_images": [],
+      "order": 15,
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": ""
     }
   ]
 }
