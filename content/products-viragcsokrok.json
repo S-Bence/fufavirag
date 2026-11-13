@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "cms-hero-bouquet",
+      "title": "Színes, vegyes virágcsokor",
+      "description": "Vidám, színpompás virágcsokor változatos, szezonális virágokból. Egyedi összeállításaink az aktuális kínálat szerint készülnek.",
+      "image": "/images/hero.webp",
+      "extra_images": [],
+      "order": 150,
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": ""
+    },
+    {
       "id": "UJ-075",
       "title": "Kék hortenziás csokor fehér boglárkával",
       "description": "Hajtatott virágokból elegáns, kerek csokor.",
