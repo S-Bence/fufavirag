@@ -37,7 +37,13 @@
     panel.querySelector('.ffv-accept').addEventListener('click',function(){choose('granted');});
     panel.querySelector('.ffv-reject').addEventListener('click',function(){choose('denied');});
     settings.addEventListener('click',function(){panel.hidden=false;});
-    document.body.appendChild(panel);document.body.appendChild(settings);
+    document.body.appendChild(panel);
+    var social=document.querySelector('footer .social-links');
+    if(social){
+      var holder=document.createElement('span');holder.className='ffv-consent-footer';
+      holder.appendChild(settings);social.appendChild(holder);
+    }else{document.body.appendChild(settings);}
+
     var choice=readChoice();
     if(choice==='granted')startAnalytics();else if(choice!=='denied')panel.hidden=false;
   }
