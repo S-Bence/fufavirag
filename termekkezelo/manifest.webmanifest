@@ -1,0 +1,20 @@
+{
+  "id": "/termekkezelo/",
+  "name": "Fű-Fa-Virág – Termékkezelő",
+  "short_name": "Fű-Fa-Virág",
+  "description": "Egyszerű termékfeltöltés és szerkesztés a Fű-Fa-Virág üzletnek",
+  "lang": "hu",
+  "start_url": "/termekkezelo/",
+  "scope": "/termekkezelo/",
+  "display": "standalone",
+  "background_color": "#f4f7f2",
+  "theme_color": "#28583b",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
