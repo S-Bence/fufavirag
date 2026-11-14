@@ -23,6 +23,23 @@
     script.src='https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(MEASUREMENT_ID);
     document.head.appendChild(script);
   }
+  /* GA4 contact intent events: delegated links, analytics opt-in only.
+     Never send phone numbers or email addresses as event parameters. */
+  document.addEventListener('click',function(event){
+    var link=event.target.closest&&event.target.closest('a[href]');
+    if(!link||readChoice()!=='granted'||!started)return;
+    var href=link.getAttribute('href')||'';
+    var eventName='';
+    if(/^tel:/i.test(href))eventName='click_phone';
+    else if(/^mailto:/i.test(href))eventName='click_email';
+    else if(/^https:\/\/(?:www\.)?google\.com\/maps\/dir\//i.test(href))eventName='click_directions';
+    if(!eventName)return;
+    window.gtag('event',eventName,{
+      event_category:'contact',
+      page_path:window.location.pathname,
+      transport_type:'beacon'
+    });
+  },false);
   function ready(){
     var panel=document.createElement('section');
     panel.className='ffv-consent-panel';
