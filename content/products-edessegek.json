@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "EDESSEGEK-001",
+      "title": "Chocome Madagaszkár",
+      "description": "Akesson kakaóbabból készült étcsokoládéval bevont szicíliai mandula madagaszkári vadborssal fűszerezve.",
+      "image": "/images/catalog/new/chocome-madagaszkar.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 40
+    },
+    {
+      "id": "EDESSEGEK-002",
+      "title": "Pergalé tejcsokoládé válogatás 'Desszertek'",
+      "description": "",
+      "image": "/images/catalog/new/pergale-tejcsokolade-valogatas-desszertek.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 30
+    },
+    {
+      "id": "EDESSEGEK-003",
+      "title": "Pergalé tejcsokoládé válogatás 'Klasszikus'",
+      "description": "",
+      "image": "/images/catalog/new/pergale-tejcsokolade-valogatas-klasszikus.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 20
+    },
+    {
+      "id": "EDESSEGEK-004",
+      "title": "Pergalé tejcsokoládé válogatás 'Mogyorós'",
+      "description": "",
+      "image": "/images/catalog/new/pergale-tejcsokolade-valogatas-mogyoros.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 10
+    }
+  ]
+}

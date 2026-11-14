@@ -1,0 +1,191 @@
+{
+  "items": [
+    {
+      "id": "PEZSGOK-BOROK-001",
+      "title": "Badacsonyi kéknyelű",
+      "description": "oltalom alatt álló eredetmegjelölésű száraz fehérbor A Kéknyelű a Badacsonyi borvidék ősi hungaricum fajtája. A vulkáni talajnak köszönhetően egyedi minerális karakter, élénk savak, nemes harmónia jellemzi a 7 hónapig új tölgyfa hordóban érlelt nagy bort.",
+      "image": "/images/catalog/new/badacsonyi-keknyelu.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 210
+    },
+    {
+      "id": "PEZSGOK-BOROK-002",
+      "title": "Bodor Merlot",
+      "description": "száraz vörösbor. Szépség, báj és harmónia. Gyümölcsillatú, gazdag aromájú bor a diósviszlói szőlőhegyről. Kecske- és juhsajtok, pástétomok partnereként is felejthetetlen pillanatokat ígér.",
+      "image": "/images/catalog/new/bodor-merlot.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 200
+    },
+    {
+      "id": "PEZSGOK-BOROK-003",
+      "title": "Ebner Cabernet Savignon",
+      "description": "pécsi, védett eredetű száraz vörösbor.",
+      "image": "/images/catalog/new/ebner-cabernet-savignon.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 190
+    },
+    {
+      "id": "PEZSGOK-BOROK-004",
+      "title": "Ebner Idill",
+      "description": "pécsi, védett eredetű száraz vörösbor.",
+      "image": "/images/catalog/new/ebner-idill.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 180
+    },
+    {
+      "id": "PEZSGOK-BOROK-005",
+      "title": "Franom",
+      "description": "szüretlen cabernet franc, száraz vörösbor Kézműves bor, Havas&Tímár pincészettől.",
+      "image": "/images/catalog/new/franom.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 170
+    },
+    {
+      "id": "PEZSGOK-BOROK-006",
+      "title": "Maison Aux Pois - Furmint blanc",
+      "description": "felső-magyarországi furmint és sauvignon blanc",
+      "image": "/images/catalog/new/maison-aux-pois-furmint-blanc.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 160
+    },
+    {
+      "id": "PEZSGOK-BOROK-007",
+      "title": "Maison Aux Pois - Késői szüret",
+      "description": "tokaji, késői szüretelésű Furmint.",
+      "image": "/images/catalog/new/maison-aux-pois-kesoi-szuret.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 150
+    },
+    {
+      "id": "PEZSGOK-BOROK-008",
+      "title": "Pastor Sauvignon Blanc",
+      "description": "Védett eredetű szekszárdi száraz fehérbor",
+      "image": "/images/catalog/new/pastor-sauvignon-blanc.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 140
+    },
+    {
+      "id": "PEZSGOK-BOROK-009",
+      "title": "Quartus fehérbor",
+      "description": "pannonhalmi Rajnai rizling, védett eredetű száraz fehérbor",
+      "image": "/images/catalog/new/quartus-feherbor.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 130
+    },
+    {
+      "id": "PEZSGOK-BOROK-010",
+      "title": "Rácz Lilla -Brut Nature- a pezsgők hercegnője 3darab 1dobozban",
+      "description": "Tradicionális, magyar termék. 3 darab prémium pezsgő egy gyönyörű díszdobozban. Kitöltve a pohárban élettel teli. Finoman gyöngyöző, elegáns, izgalmas, világos tónusú. Villányi borvidékről származó, fehér, palackos erjesztésű, oltalom alatt álló eredetmegjelölésű nyerspezsgő.",
+      "image": "/images/catalog/new/racz-lilla-brut-nature-a-pezsgok-hercegnoje-3darab-1dobozban.webp",
+      "extra_images": [
+        "/images/catalog/new/racz-lilla-brut-nature-a-pezsgok-hercegnoje-3darab-1dobozban-2.webp",
+        "/images/catalog/new/racz-lilla-brut-nature-a-pezsgok-hercegnoje-3darab-1dobozban-3.webp",
+        "/images/catalog/new/racz-lilla-brut-nature-a-pezsgok-hercegnoje-3darab-1dobozban-4.webp",
+        "/images/catalog/new/racz-lilla-brut-nature-a-pezsgok-hercegnoje-3darab-1dobozban-5.webp",
+        "/images/catalog/new/racz-lilla-brut-nature-a-pezsgok-hercegnoje-3darab-1dobozban-6.webp",
+        "/images/catalog/new/racz-lilla-brut-nature-a-pezsgok-hercegnoje-3darab-1dobozban-7.webp"
+      ],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 120
+    },
+    {
+      "id": "PEZSGOK-BOROK-017",
+      "title": "Sipos Olaszrizling",
+      "description": "badacsonyi olaszrizling. Oltalom alatt álló eredetmegjelölésű száraz fehérbor.",
+      "image": "/images/catalog/new/sipos-olaszrizling.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 50
+    },
+    {
+      "id": "PEZSGOK-BOROK-018",
+      "title": "Tokaj nobilis pezsgő",
+      "description": "hagyományos módszerrel készült furmint pezsgő",
+      "image": "/images/catalog/new/tokaj-nobilis-pezsgo.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 40
+    },
+    {
+      "id": "PEZSGOK-BOROK-019",
+      "title": "Villa gyetvai Olaszrizling",
+      "description": "Balatonfüred-Csopaki oltalom alatt álló eredetmegjelölésű száraz fehérbor",
+      "image": "/images/catalog/new/villa-gyetvai-olaszrizling.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 30
+    },
+    {
+      "id": "PEZSGOK-BOROK-020",
+      "title": "Villányi Portugieser",
+      "description": "villányi oltalom alatt álló eredetmegjelöléssel ellátott klasszikus száraz vörösbor.",
+      "image": "/images/catalog/new/villanyi-portugieser.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 20
+    },
+    {
+      "id": "PEZSGOK-BOROK-021",
+      "title": "Újbor - Első gólya",
+      "description": "A gólya a Fertő part jellegzetes vándormadara. A háztetőn fészkelő madár a jó szerencse és a gyermekáldás jelképe évszázadok óta. A Vincellér Borház primőr bora Sopronból Soproni Zweigelt – száraz, oltalom alatt álló eredetmegjelőlésű primőr vörösbor. Soproni Zenit - – száraz, oltalom alatt álló eredetmegjelőlésű primőr fehérbor. weigelt Rosé - – száraz, oltalom alatt álló eredetmegjelőlésű primőr rosébor.",
+      "image": "/images/catalog/new/ujbor-elso-golya.webp",
+      "extra_images": [],
+      "published": true,
+      "season": "Egész évben",
+      "start": "",
+      "end": "",
+      "order": 10
+    }
+  ]
+}
