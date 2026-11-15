@@ -3,6 +3,22 @@
   'use strict';
   var MEASUREMENT_ID='G-QG1WYTXSSK';
   var STORAGE_KEY='ffv-analytics-consent-v1';
+  /* Production is measured normally. Preview hosts require an explicit,
+     session-only ?ga4_test=1 opt-in; ?ga4_test=0 disables it again.
+     Consent is still required even during an enabled test session. */
+  var host=window.location.hostname.toLowerCase();
+  var isProduction=(host==='fufavirag.hu'||host==='www.fufavirag.hu');
+  var TEST_KEY='ffv-ga4-test-enabled';
+  var testEnabled=false;
+  if(!isProduction){
+    try{
+      var flag=new URLSearchParams(window.location.search).get('ga4_test');
+      if(flag==='1')sessionStorage.setItem(TEST_KEY,'1');
+      else if(flag==='0')sessionStorage.removeItem(TEST_KEY);
+      testEnabled=sessionStorage.getItem(TEST_KEY)==='1';
+    }catch(e){testEnabled=false;}
+  }
+  var analyticsAllowed=isProduction||testEnabled;
   var started=false;
   window.dataLayer=window.dataLayer||[];
   window.gtag=window.gtag||function(){window.dataLayer.push(arguments);};
@@ -13,7 +29,7 @@
   function readChoice(){try{return localStorage.getItem(STORAGE_KEY);}catch(e){return null;}}
   function saveChoice(value){try{localStorage.setItem(STORAGE_KEY,value);}catch(e){/* storage blocked */}}
   function startAnalytics(){
-    if(started)return;
+    if(started||!analyticsAllowed)return;
     started=true;
     window.gtag('consent','update',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
     window.gtag('js',new Date());
@@ -27,7 +43,7 @@
      Never send phone numbers or email addresses as event parameters. */
   document.addEventListener('click',function(event){
     var link=event.target.closest&&event.target.closest('a[href]');
-    if(!link||readChoice()!=='granted'||!started)return;
+    if(!link||!analyticsAllowed||readChoice()!=='granted'||!started)return;
     var href=link.getAttribute('href')||'';
     var eventName='';
     if(/^tel:/i.test(href))eventName='click_phone';
