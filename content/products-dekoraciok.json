@@ -39,7 +39,7 @@
     {
       "id": "UJ-060",
       "title": "Tűzött szív",
-      "description": "Különleges, tartós, egyedi ajándék lehet bámilyen alkalomra. Szív alakú oázisban, gondosan összeválogatott, friss vágott virágok.",
+      "description": "Különleges, tartós, egyedi ajándék lehet bármilyen alkalomra. Szív alakú oázisban, gondosan összeválogatott, friss vágott virágok.",
       "image": "/images/catalog/1643639872723.webp",
       "extra_images": [],
       "order": 760,
@@ -50,7 +50,7 @@
     },
     {
       "id": "KOV-001",
-      "title": "kövirózsa koszorú",
+      "title": "Kövirózsa-koszorú",
       "description": "Kül- és beltéri koszorú, tartós őszi-téli dísz kövirózsából. Ajtódísznek és asztaldísznek egyaránt használható.",
       "image": "/images/catalog/12x.webp",
       "extra_images": [
@@ -150,7 +150,7 @@
     {
       "id": "WEB-035",
       "title": "Pomme-Pidou bárány persely",
-      "description": "Eredeti belga Pomme-Pidou bárány formájú kerámia persely, különböző élénk színekben.  Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetőek, így nem kell összetörni.",
+      "description": "Eredeti belga Pomme-Pidou bárány formájú kerámia persely, különböző élénk színekben. Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetők, így nem kell összetörni.",
       "image": "/images/decor/pomme-pidou-barany-persely.webp",
       "extra_images": [],
       "order": 680,
@@ -162,7 +162,7 @@
     {
       "id": "WEB-036",
       "title": "POMME-PIDOU Béka persely kicsi",
-      "description": "Eredeti belga Pomme-Pidou béka formájú kerámia persely, különböző élénk színekben.  Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetőek, így nem kell összetörni.",
+      "description": "Eredeti belga Pomme-Pidou béka formájú kerámia persely, különböző élénk színekben. Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetők, így nem kell összetörni.",
       "image": "/images/decor/pomme-pidou-beka-persely-kicsi.webp",
       "extra_images": [],
       "order": 670,
@@ -174,7 +174,7 @@
     {
       "id": "WEB-037",
       "title": "Pomme-Pidou béka persely",
-      "description": "Eredeti belga Pomme-Pidou béka formájú kerámia persely, különböző élénk színekben.  Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetőek, így nem kell összetörni.",
+      "description": "Eredeti belga Pomme-Pidou béka formájú kerámia persely, különböző élénk színekben. Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetők, így nem kell összetörni.",
       "image": "/images/decor/pomme-pidou-beka-persely.webp",
       "extra_images": [],
       "order": 660,
@@ -186,7 +186,7 @@
     {
       "id": "WEB-038",
       "title": "Pomme-Pidou Dolly kutya persely",
-      "description": "Eredeti belga Pomme-Pidou kutya formájú kerámia persely, különböző élénk színekben.  Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetőek, így nem kell összetörni.",
+      "description": "Eredeti belga Pomme-Pidou kutya formájú kerámia persely, különböző élénk színekben. Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetők, így nem kell összetörni.",
       "image": "/images/decor/pomme-pidou-dolly-kutya-persely.webp",
       "extra_images": [],
       "order": 650,
@@ -198,7 +198,7 @@
     {
       "id": "WEB-039",
       "title": "Pomme-Pidou dínók persely",
-      "description": "Eredeti belga Pomme-Pidoukülönböző dínó formájú kerámia persely, különböző élénk színekben.  Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetőek, így nem kell összetörni.",
+      "description": "Eredeti belga Pomme-Pidou különböző dínó formájú kerámia persely, különböző élénk színekben. Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetők, így nem kell összetörni.",
       "image": "/images/decor/pomme-pidou-dinok-persely.webp",
       "extra_images": [],
       "order": 640,
@@ -210,7 +210,7 @@
     {
       "id": "WEB-040",
       "title": "Pomme-Pidou egér persely",
-      "description": "Eredeti belga Pomme-Pidou egér formájú kerámia persely, különböző élénk színekben.  Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetőek, így nem kell összetörni.",
+      "description": "Eredeti belga Pomme-Pidou egér formájú kerámia persely, különböző élénk színekben. Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetők, így nem kell összetörni.",
       "image": "/images/decor/pomme-pidou-eger-persely.webp",
       "extra_images": [],
       "order": 630,
@@ -222,7 +222,7 @@
     {
       "id": "WEB-041",
       "title": "Pomme-Pidou hegyi kecske persely",
-      "description": "Eredeti belga Pomme-Pidou kecske formájú kerámia persely, különböző élénk színekben.  Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetőek, így nem kell összetörni.",
+      "description": "Eredeti belga Pomme-Pidou kecske formájú kerámia persely, különböző élénk színekben. Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetők, így nem kell összetörni.",
       "image": "/images/decor/pomme-pidou-hegyi-kecske-persely.webp",
       "extra_images": [],
       "order": 620,
@@ -234,7 +234,7 @@
     {
       "id": "WEB-042",
       "title": "Pomme-Pidou hörcsög",
-      "description": "Eredeti belga Pomme-Pidou hörcsög formájú kerámia persely, különböző élénk színekben.  Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetőek, így nem kell összetörni.",
+      "description": "Eredeti belga Pomme-Pidou hörcsög formájú kerámia persely, különböző élénk színekben. Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetők, így nem kell összetörni.",
       "image": "/images/decor/pomme-pidou-horcsog.webp",
       "extra_images": [],
       "order": 610,
@@ -245,8 +245,8 @@
     },
     {
       "id": "WEB-043",
-      "title": "Pomme-pidou maci",
-      "description": "Eredeti belga Pomme-Pidou mackó formájú kerámia persely, különböző élénk színekben.  Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetőek, így nem kell összetörni.",
+      "title": "Pomme-Pidou maci",
+      "description": "Eredeti belga Pomme-Pidou mackó formájú kerámia persely, különböző élénk színekben. Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetők, így nem kell összetörni.",
       "image": "/images/decor/pomme-pidou-maci.webp",
       "extra_images": [],
       "order": 600,
@@ -258,7 +258,7 @@
     {
       "id": "WEB-044",
       "title": "Pomme-Pidou macska persely",
-      "description": "Eredeti belga Pomme-Pidou macska formájú kerámia persely, különböző élénk színekben.  Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetőek, így nem kell összetörni.",
+      "description": "Eredeti belga Pomme-Pidou macska formájú kerámia persely, különböző élénk színekben. Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetők, így nem kell összetörni.",
       "image": "/images/decor/pomme-pidou-macska-persely.webp",
       "extra_images": [],
       "order": 590,
@@ -270,7 +270,7 @@
     {
       "id": "WEB-045",
       "title": "Pomme-Pidou malacpersely",
-      "description": "Eredeti belga Pomme-Pidou malac formájú kerámia persely, különböző élénk színekben.  Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetőek, így nem kell összetörni.",
+      "description": "Eredeti belga Pomme-Pidou malac formájú kerámia persely, különböző élénk színekben. Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetők, így nem kell összetörni.",
       "image": "/images/decor/pomme-pidou-malacpersely.webp",
       "extra_images": [],
       "order": 580,
@@ -281,8 +281,8 @@
     },
     {
       "id": "WEB-046",
-      "title": "Pomme-Pidou malacpersely_2",
-      "description": "Eredeti belga Pomme-Pidou malac formájú kerámia persely, különböző élénk színekben.  Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetőek, így nem kell összetörni.",
+      "title": "Pomme-Pidou malacpersely 2",
+      "description": "Eredeti belga Pomme-Pidou malac formájú kerámia persely, különböző élénk színekben. Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetők, így nem kell összetörni.",
       "image": "/images/decor/pomme-pidou-malacpersely-2.webp",
       "extra_images": [],
       "order": 570,
@@ -293,8 +293,8 @@
     },
     {
       "id": "WEB-047",
-      "title": "Pomme-pidou nyúl",
-      "description": "Eredeti belga Pomme-Pidou nyúl formájú kerámia persely, különböző élénk színekben.  Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetőek, így nem kell összetörni.",
+      "title": "Pomme-Pidou nyúl",
+      "description": "Eredeti belga Pomme-Pidou nyúl formájú kerámia persely, különböző élénk színekben. Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetők, így nem kell összetörni.",
       "image": "/images/decor/pomme-pidou-nyul.webp",
       "extra_images": [],
       "order": 560,
@@ -306,7 +306,7 @@
     {
       "id": "WEB-048",
       "title": "Pomme-Pidou-mackó persely",
-      "description": "Eredeti belga Pomme-Pidou maci formájú kerámia persely, különböző élénk színekben.  Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetőek, így nem kell összetörni.",
+      "description": "Eredeti belga Pomme-Pidou maci formájú kerámia persely, különböző élénk színekben. Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetők, így nem kell összetörni.",
       "image": "/images/decor/pomme-pidou-macko-persely.webp",
       "extra_images": [],
       "order": 550,
@@ -317,8 +317,8 @@
     },
     {
       "id": "WEB-049",
-      "title": "Pomme_pidou majom",
-      "description": "Eredeti belga Pomme-Pidou majom formájú kerámia persely, különböző élénk színekben.  Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetőek, így nem kell összetörni.",
+      "title": "Pomme-Pidou majom",
+      "description": "Eredeti belga Pomme-Pidou majom formájú kerámia persely, különböző élénk színekben. Az alapforma elkészítése után minden állat megkapja az egyedi díszítését. Kiváló minőségű kerámiából készül! A perselyek üríthetők, így nem kell összetörni.",
       "image": "/images/decor/pomme-pidou-majom.webp",
       "extra_images": [],
       "order": 540,
