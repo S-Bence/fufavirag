@@ -10,7 +10,7 @@
       "season": "Egész évben",
       "start": "",
       "end": "",
-      "order": 330
+      "order": 430
     },
     {
       "id": "PEZSGOK-BOROK-002",
@@ -34,7 +34,7 @@
       "season": "Egész évben",
       "start": "",
       "end": "",
-      "order": 310
+      "order": 420
     },
     {
       "id": "PEZSGOK-BOROK-004",
@@ -46,7 +46,7 @@
       "season": "Egész évben",
       "start": "",
       "end": "",
-      "order": 300
+      "order": 410
     },
     {
       "id": "PEZSGOK-BOROK-005",
@@ -58,7 +58,7 @@
       "season": "Egész évben",
       "start": "",
       "end": "",
-      "order": 290
+      "order": 400
     },
     {
       "id": "PEZSGOK-BOROK-006",
@@ -70,7 +70,7 @@
       "season": "Egész évben",
       "start": "",
       "end": "",
-      "order": 280
+      "order": 390
     },
     {
       "id": "PEZSGOK-BOROK-007",
@@ -82,7 +82,7 @@
       "season": "Egész évben",
       "start": "",
       "end": "",
-      "order": 270
+      "order": 380
     },
     {
       "id": "PEZSGOK-BOROK-008",
@@ -106,7 +106,7 @@
       "season": "Egész évben",
       "start": "",
       "end": "",
-      "order": 260
+      "order": 370
     },
     {
       "id": "PEZSGOK-BOROK-010",
@@ -125,7 +125,7 @@
       "season": "Egész évben",
       "start": "",
       "end": "",
-      "order": 320
+      "order": 440
     },
     {
       "id": "PEZSGOK-BOROK-017",
@@ -149,7 +149,7 @@
       "season": "Egész évben",
       "start": "",
       "end": "",
-      "order": 250
+      "order": 360
     },
     {
       "id": "PEZSGOK-BOROK-019",
@@ -161,7 +161,7 @@
       "season": "Egész évben",
       "start": "",
       "end": "",
-      "order": 240
+      "order": 350
     },
     {
       "id": "PEZSGOK-BOROK-020",
@@ -185,7 +185,7 @@
       "season": "Egész évben",
       "start": "",
       "end": "",
-      "order": 230
+      "order": 340
     }
   ]
 }
