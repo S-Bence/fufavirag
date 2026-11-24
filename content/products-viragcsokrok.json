@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "mobile-ec5b3a01-c70f-40f8-915d-6e05f15e681e",
+      "title": "Karàcsonyi kolomp",
+      "description": "Aranysznű, téli dekoràció, két méretben",
+      "image": "/images/uploads/mobile-1795530083025-57b7ec19.jpg",
+      "extra_images": [],
+      "published": true,
+      "season": "Advent / karácsony",
+      "start": "",
+      "end": "",
+      "order": 25
+    },
+    {
       "start": "",
       "season": "Egész évben",
       "extra_images": [],
